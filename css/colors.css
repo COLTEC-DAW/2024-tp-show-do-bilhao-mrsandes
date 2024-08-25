@@ -1,0 +1,102 @@
+:root {
+    --roxo-principal: #6A0DAD;
+    --roxo-secundario: #8A2BE2;
+    --roxo-fundo-claro: #E6E6FA;
+    --roxo-fundo-alternativo: #D8BFD8;
+    --roxo-destaque: #9932CC;
+    --roxo-texto: #4B0082;
+}
+
+:root {
+    --cinza-claro: #DCDCDC;
+    --cinza-medio: #E9E9E9;
+    --cinza-escuro: #555555;
+    --branco: #FFFFFF;
+    --preto-claro: #333333;
+    --cinza-muito-claro: #F5F5F5;
+}
+
+.roxo-principal {
+    color: var(--roxo-principal);
+}
+
+.fundo-roxo-principal {
+    background-color: var(--roxo-principal);
+}
+
+.roxo-secundario {
+    color: var(--roxo-secundario);
+}
+
+.fundo-roxo-secundario {
+    background-color: var(--roxo-secundario);
+}
+
+.roxo-fundo-claro {
+    background-color: var(--roxo-fundo-claro);
+}
+
+.roxo-fundo-alternativo {
+    background-color: var(--roxo-fundo-alternativo);
+}
+
+.roxo-destaque {
+    color: var(--roxo-destaque);
+}
+
+.fundo-roxo-destaque {
+    background-color: var(--roxo-destaque);
+}
+
+.roxo-texto {
+    color: var(--roxo-texto);
+}
+
+/* Classes de Cores Cinza e Preto */
+.cinza-claro {
+    color: var(--cinza-claro);
+}
+
+.fundo-cinza-claro {
+    background-color: var(--cinza-claro);
+}
+
+.cinza-medio {
+    color: var(--cinza-medio);
+}
+
+.fundo-cinza-medio {
+    background-color: var(--cinza-medio);
+}
+
+.cinza-escuro {
+    color: var(--cinza-escuro);
+}
+
+.fundo-cinza-escuro {
+    background-color: var(--cinza-escuro);
+}
+
+.branco {
+    color: var(--branco);
+}
+
+.fundo-branco {
+    background-color: var(--branco);
+}
+
+.preto-claro {
+    color: var(--preto-claro);
+}
+
+.fundo-preto-claro {
+    background-color: var(--preto-claro);
+}
+
+.cinza-muito-claro {
+    color: var(--cinza-muito-claro);
+}
+
+.fundo-cinza-muito-claro {
+    background-color: var(--cinza-muito-claro);
+}

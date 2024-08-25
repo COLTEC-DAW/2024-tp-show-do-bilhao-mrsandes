@@ -1,0 +1,55 @@
+@import url('colors.css');
+
+body {
+    max-width: 75rem;
+    margin: 0 auto;
+    background-color: var(--roxo-fundo-claro); 
+    font-family: Arial, sans-serif;
+    padding: 1.25rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: var(--preto-claro);
+}
+
+.pergunta {
+    background-color: var(--branco);
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.enunciado {
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
+    color: var(--cinza-escuro);
+}
+
+.numero {
+    color: var(--roxo-destaque);
+}
+
+.alternativas {
+    padding-left: 0;
+}
+
+.alternativa {
+    font-size: 1.2rem;
+    margin: 0.3125rem 0;
+    padding: 0.625rem;
+    background-color: var(--roxo-principal);
+    color: var(--branco);
+    border-radius: 0.25rem;
+    list-style: none;
+}
+
+.alternativa:hover {
+    background-color: var(--roxo-secundario);
+}
